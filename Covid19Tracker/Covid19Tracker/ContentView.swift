@@ -23,11 +23,11 @@ struct ContentView: View {
                     Text(tracking.state)
                     .padding()
                         .foregroundColor(Color.white)
-                        .background(Color.purple)
+                        .background(Color.green)
                         .clipShape(Circle())
                     Spacer()
                     VStack {
-                        Text("\(tracking.total)")
+                        Text("Total: \(tracking.total)")
                         HStack {
                             Text("🏥 \(tracking.totalHospitalized)")
                             Text("☠️ \(tracking.death)")
